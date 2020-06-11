@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/pdkhanh695/blog-app/issues"
   },
-  "homepage": "https://github.com/pdkhanh695/blog-app#readme"
+  "homepage": "https://github.com/pdkhanh695/blog-app#readme",
+  "dependencies": {
+    "apollo-server-koa": "^2.14.3",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^6.0.9",
+    "knex": "^0.21.1",
+    "koa": "^2.12.0",
+    "moment": "^2.26.0",
+    "mysql2": "^2.1.0"
+  }
 }

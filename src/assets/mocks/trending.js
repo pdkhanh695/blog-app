@@ -1,6 +1,7 @@
-import moment from "moment";
-
-export default [
+//Es6 syntax
+const moment = require("moment");
+//why the coler change for each element into array
+module.export = [
   {
     title: "Software Engineer Salary in 2020",
     date: moment().format("MMMM DD, YYYY"),
