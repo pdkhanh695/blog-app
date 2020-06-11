@@ -5,13 +5,37 @@
   display: flex;
   justify-content: space-between;
   color: $text-color;
+  position: fixed;
+  z-index: 100; //check with -1
+  top: 0; // check to lean more
 
-  span {
+  .menu-title {
     font-size: 20px;
     font-weight: 500;
     display: flex;
     align-items: center;
     margin-left: 30px;
+  }
+  .ion-ios-menu {
+    font-size: 36px;
+    margin: 65px;
+    align-items: center;
+    cursor: pointer;
+    display: none; //none
+  }
+  .menu-content-container {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+
+    .ant-avatar {
+      background: $background;
+      border: 1px solid $border;
+    }
+    .menu-avatar-name {
+      font-size: 18px;
+      margin-left: 15px;
+    }
   }
   ul {
     height: 100%;
@@ -21,7 +45,7 @@
     display: flex;
     align-items: center;
     list-style-type: none;
-    margin-right: 20px;
+    padding: 0 20px 0 50px;
   }
 
   a {
@@ -32,6 +56,55 @@
 
     &:hover {
       color: $text-link;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .site-navigation {
+    .menu-content-container {
+      width: 300px;
+      height: calc(100% - 65px);
+      background: white;
+      position: fixed;
+      top: 65px;
+      left: -300px;
+      transition: 300ms ease left; //check again
+      flex-direction: column-reverse;
+      padding: 0;
+      padding-left: 30px;
+
+      a {
+        width: 100%;
+        padding: 0;
+      }
+      li {
+        height: 60px;
+        display: flex;
+        align-items: center;
+      }
+
+      ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+        padding-top: 20px;
+      }
+      ul,
+      li,
+      .menu-avatar-container {
+        width: 100%;
+      }
+
+      .menu-avatar-container {
+        padding-top: 20px;
+      }
+      &.active {
+        left: 0px;
+      }
+    }
+    .ion-ios-menu {
+      display: flex;
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "react-blog-backend",
+  "version": "1.0.0",
+  "description": "Koa and GrapQl for React blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdkhanh695/blog-app.git"
+  },
+  "author": "dinhphan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdkhanh695/blog-app/issues"
+  },
+  "homepage": "https://github.com/pdkhanh695/blog-app#readme"
+}
