@@ -4,7 +4,9 @@
   "description": "Koa and GrapQl for React blog",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "create-migration": "node ./database/actions/create-migration.js",
+    "run-migration": "node ./database/actions/run-migration.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/pdkhanh695/blog-app#readme",
   "dependencies": {
     "apollo-server-koa": "^2.14.3",
+    "bluebird": "^3.7.2",
     "dotenv": "^8.2.0",
     "graphql-tools": "^6.0.9",
     "knex": "^0.21.1",
