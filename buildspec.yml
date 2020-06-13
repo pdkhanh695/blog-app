@@ -17,10 +17,10 @@ phases:
         - yarn
     build:
       commands:
-        - echo Testing ...
+        - echo run Testing ...
         - yarn test
         - echo Buiding ...
-        - yarn build
+        - yarn run build
 artifacts:
   files:
     - "**/*"
