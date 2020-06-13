@@ -1,7 +1,7 @@
 .site-navigation {
-  height: 65px;
+  height: 40px;
   width: 100%;
-  background: white;
+  background: #232f3e;
   display: flex;
   justify-content: space-between;
   color: $text-color;
@@ -10,8 +10,8 @@
   top: 0; // check to lean more
 
   .menu-title {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 800;
     display: flex;
     align-items: center;
     margin-left: 30px;
@@ -33,7 +33,7 @@
       border: 1px solid $border;
     }
     .menu-avatar-name {
-      font-size: 18px;
+      font-size: 15px;
       margin-left: 15px;
     }
   }
@@ -51,7 +51,7 @@
   a {
     text-decoration: none;
     padding: 0 20px 0 20px;
-    font-size: 20px;
+    font-size: 15px;
     color: $text-color;
 
     &:hover {

@@ -2,6 +2,21 @@ import React from "react";
 import { PostMasonry, MasonryPost, PostGrid } from "../components/common";
 import trending from "../assets/mocks/trending";
 import featured from "../assets/mocks/featured";
+import Slider from "../components/slider/slider";
+
+import Navigation from "../components/navigation";
+
+const user = {
+  firstName: "",
+  lastName: "",
+};
+
+const images = [
+  "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+  "https://images.unsplash.com/photo-1470341223622-1019832be824?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2288&q=80",
+  "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2094&q=80",
+  "https://images.unsplash.com/photo-1534161308652-fdfcf10f62c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2174&q=80",
+];
 
 const trendingConfig = {
   1: {
@@ -41,14 +56,19 @@ const lastPost = featured.pop();
 export default function Home() {
   return (
     <main className="home">
-      <section className="container">
-        <div className="row">
-          <section className="featured-posts-container">
-            <PostMasonry posts={featured} columns={2} tagsOnTop={true} />
-            <MasonryPost post={lastPost} tagsOnTop={true} />
-          </section>
-        </div>
+      <Slider slides={images} autoPlay={2} />
+
+      <section className="bg-gray">
+        <section className="container">
+          <div className="row">
+            <section className="featured-posts-container">
+              <PostMasonry posts={featured} columns={2} tagsOnTop={true} />
+              <MasonryPost post={lastPost} tagsOnTop={true} />
+            </section>
+          </div>
+        </section>
       </section>
+
       <section className="bg-white">
         <section className="container">
           <div className="row">
@@ -57,10 +77,13 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <section className="container">
-        <div className="row">
-          <PostMasonry posts={trending} columns={3} />
-        </div>
+
+      <section className="bg-gray">
+        <section className="container">
+          <div className="row">
+            <PostMasonry posts={trending} columns={3} />
+          </div>
+        </section>
       </section>
     </main>
   );
