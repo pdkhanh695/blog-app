@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.64fe1cd0.chunk.css",
+    "main.js": "/static/js/main.1025f0e8.chunk.js",
+    "main.js.map": "/static/js/main.1025f0e8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a452570e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a452570e.js.map",
+    "static/css/2.495df28b.chunk.css": "/static/css/2.495df28b.chunk.css",
+    "static/js/2.222961fa.chunk.js": "/static/js/2.222961fa.chunk.js",
+    "static/js/2.222961fa.chunk.js.map": "/static/js/2.222961fa.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d3a8913c7fa828a8767774249ff5c468.js": "/precache-manifest.d3a8913c7fa828a8767774249ff5c468.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.495df28b.chunk.css.map": "/static/css/2.495df28b.chunk.css.map",
+    "static/css/main.64fe1cd0.chunk.css.map": "/static/css/main.64fe1cd0.chunk.css.map",
+    "static/js/2.222961fa.chunk.js.LICENSE.txt": "/static/js/2.222961fa.chunk.js.LICENSE.txt",
+    "static/media/anyone_can_code.jpg": "/static/media/anyone_can_code.908fc04f.jpg",
+    "static/media/apollo_graphql.png": "/static/media/apollo_graphql.40913dfe.png",
+    "static/media/circuit_brain.jpg": "/static/media/circuit_brain.40913dfe.jpg",
+    "static/media/cloud_storage.jpeg": "/static/media/cloud_storage.40913dfe.jpeg",
+    "static/media/cloud_storage.jpg": "/static/media/cloud_storage.40913dfe.jpg",
+    "static/media/crypto.jpg": "/static/media/crypto.40913dfe.jpg",
+    "static/media/graphql.png": "/static/media/graphql.40913dfe.png",
+    "static/media/home_budget.jpg": "/static/media/home_budget.40913dfe.jpg",
+    "static/media/ionicons-v4.css": "/static/media/ionicons.99b86349.woff",
+    "static/media/left-arrow.svg": "/static/media/left-arrow.34a4f31c.svg",
+    "static/media/logo.png": "/static/media/logo.40913dfe.png",
+    "static/media/money.jpg": "/static/media/money.40913dfe.jpg",
+    "static/media/neuron.jpg": "/static/media/neuron.4b236b7d.jpg",
+    "static/media/programming_languages.jpeg": "/static/media/programming_languages.40913dfe.jpeg",
+    "static/media/puzzled_programer.jpeg": "/static/media/puzzled_programer.40913dfe.jpeg",
+    "static/media/right-arrow.svg": "/static/media/right-arrow.5e5b72cc.svg",
+    "static/media/slide_home1.jpg": "/static/media/slide_home1.7ff06c67.jpg",
+    "static/media/spending_money.jpg": "/static/media/spending_money.40913dfe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a452570e.js",
+    "static/css/2.495df28b.chunk.css",
+    "static/js/2.222961fa.chunk.js",
+    "static/css/main.64fe1cd0.chunk.css",
+    "static/js/main.1025f0e8.chunk.js"
+  ]
+}
